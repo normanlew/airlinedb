@@ -88,7 +88,7 @@ void OrderedLinkList<T>::insert(T &item)
 }
 
 
-// Function to add a link to the ordered linked list
+
 // This function overrides the delete function in LinkedList
 // The difference between this delete function and the delete function in LinkedList is that this delete function will stop
 // searching the list as soon as it is known that all further nodes to examine in the list are greater than the one being
